@@ -23,7 +23,7 @@ public class HomeWork {
 		System.out.println();
 		
 		for(i=0;i<5;i++) {				
-			for(int j = 0; j+5>i+1;j--) {								
+			for(int j = 0; j+4>i;j--) {								
 			System.out.print(' ');				
 			}
 			for(int k = 0; k<i+1;k++) {
