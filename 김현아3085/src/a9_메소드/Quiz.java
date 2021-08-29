@@ -81,6 +81,7 @@ public class Quiz {
 		
 		
 		/*
+<<<<<<< HEAD
 		 * [별찍기 프로그램]
 		 * 1. 문제1 
 		 * 2. 문제2
@@ -91,21 +92,12 @@ public class Quiz {
 		 * 명령을 입력하세요:
 		 *  
 		 * 출력할 별의 개수를 입력하세요 : 
+=======
+		 * static이 안붙어있으면 바로 사용이 가능하다 
+>>>>>>> branch 'master' of https://github.com/khyunah/javaStudy20210811.git
 		 * 
-		 * 
-		 * 명령에서 1-5햇을때 출력할 별의 개수 
-		 * 별 개수 10 
-		 * 
-		 * void procStart(명령 번호){
-		 * if(1번이면){
-		 *     void quiz1(별의개수){
-		 *     		for()
-		 *     }
-		 *     for문 끝나고 나면 다시 별찍기 프로그램이 떠야함 
-		 * 
-		 * }else if(2번이면){
-		 * }......
 		 */
+<<<<<<< HEAD
 		//첫번째 입력 : 
 
 		Scanner in = new Scanner(System.in);
@@ -152,6 +144,12 @@ public class Quiz {
 			
 						
 		}System.out.println("프로그램 종료 !");
+=======
+		
+		
+		
+		
+>>>>>>> branch 'master' of https://github.com/khyunah/javaStudy20210811.git
 	}
 
 }

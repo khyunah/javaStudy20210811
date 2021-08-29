@@ -19,7 +19,7 @@ public class CoversionString {
 		int i = Integer.parseInt("10");  //이렇게하면 문자열인 10이 정수 10 이 된다
 		//인티저안에 인트로 파싱해주는 것 
 		double d = Double.parseDouble("10.1");
-	//	int d = (int)Double.parseDouble("10.1"); 더블형에 정수형으로 형변환을 해준거임
+		//	int d = (int)Double.parseDouble("10.1"); 더블형에 정수형으로 형변환을 해준거임
 		boolean b =Boolean.parseBoolean("true");
 		
 		
