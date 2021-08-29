@@ -92,12 +92,12 @@ public class Quiz {
 		 * 명령을 입력하세요:
 		 *  
 		 * 출력할 별의 개수를 입력하세요 : 
-=======
+
 		 * static이 안붙어있으면 바로 사용이 가능하다 
->>>>>>> branch 'master' of https://github.com/khyunah/javaStudy20210811.git
+
 		 * 
 		 */
-<<<<<<< HEAD
+
 		//첫번째 입력 : 
 
 		Scanner in = new Scanner(System.in);
@@ -144,12 +144,12 @@ public class Quiz {
 			
 						
 		}System.out.println("프로그램 종료 !");
-=======
+
 		
 		
 		
 		
->>>>>>> branch 'master' of https://github.com/khyunah/javaStudy20210811.git
+
 	}
 
 }
