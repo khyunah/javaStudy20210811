@@ -25,8 +25,8 @@ public class Bingsu {
 		System.out.println(bingsu2);
 		System.out.println(bingsu3);
 		System.out.println(bingsu4);
-		
 		b.voidTest();
+		
 	
 		//     void:메소드 리턴을 해야하지만 보이든 한번 하고 끝.
 		/* 자바안에서 함수는 함수라고 안함 메소드라고 한다.
