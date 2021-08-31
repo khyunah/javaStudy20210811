@@ -2,15 +2,9 @@ package b10_클래스;
 
 public class Student {
 	
-		/*
-		 * 객체 클래스를 통해 구현할수있는 모든 대상
-		 * 객체가 구현된것을 인스턴스라고한다 
-		 * 
-		 * 
-		 */
 	private String name ;
 	private String schoolName;
-	private int year;//학년
+	private int year; //학년
 	
 	
 	public Student(String name, int year) {

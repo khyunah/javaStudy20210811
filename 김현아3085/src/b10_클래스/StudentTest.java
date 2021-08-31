@@ -11,7 +11,7 @@ public class StudentTest {
 		//kim.name = "김현아"; // .은 해당 메모리 주소값을 참조한다라고 함.
 		
 		
-		kim.showInfo();
+		//kim.showInfo();
 		
 		
 		Integer i = new Integer(100);
@@ -21,6 +21,7 @@ public class StudentTest {
 		
 		kim.getFreebies();
 		lee.getFreebies();
+		park.getFreebies();
 
 				
 	}

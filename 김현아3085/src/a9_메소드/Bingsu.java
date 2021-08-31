@@ -4,7 +4,7 @@ public class Bingsu {
 	
 	String toMake(String material, int materialCount, String material2) {
 		String bingsu = material +materialCount +"개와 "+material2+"가 들어간 빙수";
-		 return bingsu;		
+		 return bingsu;	 	
 	}
 	
 	void voidTest() {
