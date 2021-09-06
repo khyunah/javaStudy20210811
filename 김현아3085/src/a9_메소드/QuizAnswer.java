@@ -2,7 +2,7 @@ package a9_¸Þ¼Òµå;
 
 import java.util.Scanner;
 
-public class Quiz {
+public class QuizAnswer {
 	
 	public void quiz1(int starCount) {
 		for(int i = 0; i < starCount; i++) {
@@ -80,7 +80,7 @@ public class Quiz {
 	
 	
 	public static void main(String[] args) {
-		Quiz m = new Quiz();
+		QuizAnswer m = new QuizAnswer();
 		Scanner in = new Scanner(System.in);
 		boolean loopFlag = true;
 		

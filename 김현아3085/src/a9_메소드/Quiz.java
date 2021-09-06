@@ -101,7 +101,7 @@ public class Quiz {
 		//첫번째 입력 : 
 
 		Scanner in = new Scanner(System.in);
-		Num n = new Num();
+		Quiz n = new Quiz();
 		
 		boolean mainFlag = true;
 		
