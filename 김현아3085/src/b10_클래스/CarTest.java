@@ -3,7 +3,7 @@ package b10_Å¬·¡½º;
 public class CarTest {
 	public static void main(String[] args) {
 		
-		Car sonata = new Car();
+		Car sonata = new Car(); 
 		Car k7 = new Car();
 		Car tesla_model3 = new Car();
 		

@@ -36,6 +36,8 @@ public class ArrayEx1 {
 		for(int i =0; i<100;i++) {
 			System.out.println(num[i]);
 		}
+		
+		
 		//밑에 값을 넣은거 for 문으로 한번에 값을 넣는다.
 		num[0]=10;
 		num[1]=20;

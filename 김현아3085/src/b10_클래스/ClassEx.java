@@ -16,6 +16,7 @@ class Phone{
 	private String phoneCase;
 	
 	public String getModel() {
+		System.out.println(model);
 		return model;
 	}
 	public void setModel(String model) {
@@ -24,21 +25,21 @@ class Phone{
 	
 	public Phone() {
 		System.out.println("새로운 phone을 생성하였습니다.");
+
 	}
 	public Phone (String company) {
 		System.out.println("두번째 생성자로 만든 Phone");
 		this.company=company;
 	}
-	
-
 }
-
 public class ClassEx {
 	public static void main(String[] args) {
-		System.out.println(new Phone("Apple")); //뉴는 주소값을 생성한다 그래서 생성된 생성자의 변수명을 이용하면 그 주소값을 참조해서 그 클래스안의 변수이용가능
+		System.out.println(new Phone("Apple")); 
+
+		//뉴는 주소값을 생성한다 그래서 생성된 생성자의 변수명을 이용하면 그 주소값을 참조해서 그 클래스안의 변수이용가능
 		Phone p = new Phone() ;
 		Phone p2 = new Phone();
-		
+	
 		p.setModel("iPhone");
 		p2.setModel("galaxy");
 		p.getModel();
