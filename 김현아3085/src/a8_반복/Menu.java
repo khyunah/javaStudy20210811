@@ -19,7 +19,7 @@ public class Menu {
 			if (selecter.equals("1")) {
 				while(true) {
 				System.out.println("[김준일 강사 폴더]");
-				System.out.println("1. javaStedy 폴더");
+				System.out.println("1. javaStudy 폴더");
 				System.out.println("b. 뒤로가기");
 				System.out.println("q. 프로그램 종료");
 				System.out.print("명령을 입력하세요 : ");

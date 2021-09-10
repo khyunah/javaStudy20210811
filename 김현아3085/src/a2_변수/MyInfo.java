@@ -56,7 +56,7 @@ public class MyInfo {
 		double left = 1.0;
 		double right = 1.2;
 		
-		boolean malefemale = false;
+		boolean male = false;
 		
 		
 		System.out.print("생년월일 : ");
@@ -76,7 +76,7 @@ public class MyInfo {
 		System.out.print("시력 (R) :");
 		System.out.println(right);
 		System.out.print("성별 : ");
-		System.out.println(malefemale);
+		System.out.println(male);
 	
 
 	}
