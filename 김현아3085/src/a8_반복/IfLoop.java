@@ -14,9 +14,6 @@ public class IfLoop {
 		while(0<1) {
 			System.out.println("참입니다");
 		}
-		
-			
-
 	}
 
 }

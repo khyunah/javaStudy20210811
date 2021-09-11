@@ -2,13 +2,10 @@ package b13_다형성;
 
 import b12_상속.Animal; 
 
-
-class Human extends Animal{
-	
+class Human extends Animal{	
 	public void readBook() {
 		System.out.println("사람이 책을 읽습니다.");
-	}
-	
+	}	
 	@Override
 	public void move() {
 		System.out.println("사람이 두 발로 걷습니다.");
@@ -18,8 +15,7 @@ class Human extends Animal{
 class Tiger extends Animal{
 	public void hunting() {
 		System.out.println("호랑이가 사냥을 합니다.");
-	}
-	
+	}	
 	@Override
 	public void move() {
 		System.out.println("호랑이가 네발로 뜁니다.");
@@ -29,33 +25,29 @@ class Tiger extends Animal{
 class Eagle extends Animal{
 	public void flying() {
 		System.out.println("독수리가 날개를 쭉 펴고 멀리 날아갑니다.");
-	}
-	
+	}	
 	@Override
 	public void move() {
 		System.out.println("독수리는 날개를 펴고 납니다.");
 	}
 }
 
-
-
 public class AnimalTest {
-
-	Animal[] list = new Animal [3];
+	//업캐스팅
+	Animal[] list = new Animal[3];
 	public void addAnimal() {
 		list[0] = new Human();
 		list[1] = new Tiger();
-		list[2]= new Eagle();
-		
+		list[2]= new Eagle();		
 	}
 	
+
 	public void animalMove() {
 		for(Animal ani : list) {
-			ani.move();
-			
+			ani.move();			
 		}
 	}
-	
+	//다운캐스팅
 	public void casting() {
 		for(Animal ani : list) {
 			if(ani == null) {

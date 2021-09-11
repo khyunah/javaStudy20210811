@@ -16,8 +16,10 @@ public class ScannerEx {
 		String str = input.nextLine();
 		System.out.println("두번째 수  :");
 		String str2 = input.nextLine();
+		
 		//next : 한단어 띄어쓰기를 만나기 전까지의 ,
 		//nextLine : 한줄에 모든 글자 기호 띄어쓰기 다 포함
+		
 		System.out.println("결과 : ");
 		System.out.println(Integer.parseInt(str)+Integer.parseInt(str2));
 		//int i = Integer.parseInt(str);

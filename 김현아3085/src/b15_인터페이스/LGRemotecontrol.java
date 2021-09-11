@@ -4,9 +4,7 @@ public class LGRemotecontrol {
 	private Switch powerSwitch = new SwitchImpl();
 	private Switch volumeSwitch = new SwitchImpl2();
 	
-	public LGRemotecontrol() {
-		
-	}
+	public LGRemotecontrol() {}
 	
 	public void powerSwitchController(int flag) {
 		if(flag ==1) {
@@ -16,9 +14,7 @@ public class LGRemotecontrol {
 		}else {
 			System.out.println("잘못된 값을 전달받았습니다.");
 		}
-	}
-
-	
+	}	
 	public void volumeSwitchController(int flag) {
 		if(flag ==1) {
 			volumeSwitch.on();
