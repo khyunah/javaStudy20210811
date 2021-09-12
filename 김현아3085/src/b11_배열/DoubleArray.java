@@ -16,9 +16,7 @@ public class DoubleArray {
 		System.out.println(d_arr.length );   //이거는 행의 갯수
 		System.out.println(d_arr[0].length);    // 이거는 열의 갯수, 인덱스값은 무조건 넣어줘야함, 
 		                                        //length는 갯수를 나타내기때문에 행을 나타내는 [].이 괄호 안에는 아무숫자 넣어도됨 
-		
-		
-		
+	
 		//100이 들어있는 배열의 인덱스번호 출력하기
 		
 		for(int i = 0; i<d_arr.length;i++) {		

@@ -17,7 +17,5 @@ public class ExtendsEx1 {
 		s.setMoney(10000);
 		System.out.println(s);
 
-
 	}
-
 }
