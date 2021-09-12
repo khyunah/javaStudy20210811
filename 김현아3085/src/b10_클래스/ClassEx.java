@@ -34,15 +34,16 @@ class Phone{
 }
 public class ClassEx {
 	public static void main(String[] args) {
-		System.out.println(new Phone("Apple")); 
-
-		//뉴는 주소값을 생성한다 그래서 생성된 생성자의 변수명을 이용하면 그 주소값을 참조해서 그 클래스안의 변수이용가능
-		Phone p = new Phone() ;
+		Phone p = new Phone();
 		Phone p2 = new Phone();
-	
+		//뉴는 주소값을 생성한다 그래서 생성된 생성자의 변수명을 이용하면 그 주소값을 참조해서 그 클래스안의 변수이용가능		
+		
+		System.out.println(new Phone("애플")); 
+
 		p.setModel("iPhone");
 		p2.setModel("galaxy");
 		p.getModel();
+		p2.getModel();
 
 		
 		

@@ -9,7 +9,7 @@ public class Regular {
 	}
 
 	public void setYearCheck(int year, String schoolName) {
-		this.yearCheck =year >2 && schoolName.equals("코리아아이티");
+		this.yearCheck = year > 2 && schoolName.equals("코리아아이티");
 	}
 	
 	

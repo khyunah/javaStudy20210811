@@ -6,10 +6,6 @@ public class Car {
 	private String color; //차량 색상
 	private int year; //연식
 	
-
-	
-
-	
 	public String getCompany() {
 		return company;
 	}

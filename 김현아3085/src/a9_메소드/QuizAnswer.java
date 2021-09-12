@@ -91,28 +91,19 @@ public class QuizAnswer {
 			
 			if(selector.equals("1") || selector.equals("2") || selector.equals("3") 
 					|| selector.equals("4") || selector.equals("5")) {
-				
 				System.out.print("출력할 별의 개수를 입력하세요: ");
 				int starCount = in.nextInt();
 				in.nextLine();
-				
 				m.procStart(selector, starCount);
-				
 			}else if(selector.equals("q")) {
-				
 				System.out.println("프로그램 종료중...");
-				loopFlag = false;
-				
-			}else {
-				
-				System.out.println("잘못된 입력입니다.");
-				
+				loopFlag = false;				
+			}else {				
+				System.out.println("잘못된 입력입니다.");				
 			}
 			System.out.println();
-		}
-		
-		System.out.println("프로그램이 종료되었습니다.");
-		
+		}		
+		System.out.println("프로그램이 종료되었습니다.");		
 	}
 	
 	

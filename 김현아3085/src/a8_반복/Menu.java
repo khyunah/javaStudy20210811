@@ -25,31 +25,26 @@ public class Menu {
 				System.out.print("명령을 입력하세요 : ");
 				selecter = in.nextLine();		
 				
-				if(selecter.equals("1")) {
+					if(selecter.equals("1")) {
 					System.out.println("[javaStudy 폴더]");					
-				}else if(selecter.equals("b")) {
+					}else if(selecter.equals("b")) {
 					break; //여기서 브레이크하면 이프와일을 탈출해서 처음 와일문으로 이동하게됨
-				}else if(selecter.equals("q")) {
-					System.out.println("프로그램 종료중...");//여기사 브레이크 하며 ㄴ아예 종료되지는 않음 그래서 변수 써줘야함
-					mainFlag = false; //위에서는 트루였는데 펄스가 됬기 때문에 브레이크땜에 위로 올라가도 거짓이기 때문에 반복할 실행문이 없음 종료됨.
+					}else if(selecter.equals("q")) {
+					System.out.println("프로그램 종료중...");//여기사 브레이크 하면 아예 종료되지는 않음 그래서 변수 써줘야함
+					mainFlag = false; //위에서는 트루였는데 펄스가 됬기 때문에 브레이크땜에  종료됨.
 					break;
-				}else {
+					}else {
 					System.out.println("잘못된 입력입니다.");
-				}
+					}
 				}
 
-			
 			}else if ( selecter.equals("q")) {
 				System.out.println("프로그램 종료중...");
 				break; //while문안에 있기때문에 무한반복한다 브레이크 써줘야 나감.
 			}else {
 				System.out.println("잘못된 입력입니다.");
 			}
-			
-						
 		}System.out.println("프로그램 종료 !");
-
-
 
 	}
 

@@ -22,12 +22,12 @@ public class ArrayEx1 {
 		System.out.println(num4);
 		System.out.println(num5);
 		
-		//배열 선언 및 대입방법 1
+		//배열 선언 및 대입 방법 1
 		int[] num = new int[100];
 		//여기서의 num 은 배열의 시작주소값이 들어있음
 		//이렇게 선언하고 
-		//num = new int[] {10,20,30,40,50};
-		//num = {10,20,30,40,50};
+//		num = new int[] {10,20,30,40,50};
+//		num = {10,20,30,40,50};
 		//이렇게 사용불가, 하나씩 쓰거나 for문사용해야됨
 		
 		for(int i =0; i<100; i++) {
