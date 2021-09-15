@@ -15,12 +15,16 @@ public class GenericEx<T> {
 	}
 	
 	public static void main(String[] args) {
+		//String타입으로
 		GenericEx<String> gex = new GenericEx<String>();
 		String str = gex.getGeneric("김준일");
+		
+		//int타입으로
 		GenericEx<Integer> gex2 = new GenericEx<Integer>();
 		Integer num1 = gex2.getGeneric(100);
 		
 		System.out.println(str);
+		System.out.println(num1);
 	}
 
 }
