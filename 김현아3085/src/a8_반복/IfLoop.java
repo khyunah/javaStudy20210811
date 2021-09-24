@@ -10,10 +10,10 @@ public class IfLoop {
 		if(true) {
 			System.out.println("참입니다");
 		}
+		
 		//참일때 계속 무한실행
 		while(0<1) {
 			System.out.println("참입니다");
 		}
 	}
-
 }

@@ -3,7 +3,7 @@ package a7_조건;
 public class SwitchCase {
 
 	public static void main(String[] args) {
-		//값을 임시로 지정해 놓고 그 값이 참일때 실행하는지 
+		
 		//1번째 예
 		char select = 'b';		
 		switch(select) {
@@ -16,11 +16,12 @@ public class SwitchCase {
 			case 'c' : 
 				System.out.println("c입니다.");
 				break;
-			//break  제어문 탈출해주는 아이	
+			    //break  제어문 탈출해주는 아이	
 			default :
 				System.out.println("a,b,c가 아닙니다.");
 			//디폴트에는 항상 끝이기때문에 브레이크 필요없음			
 		}
+		
 		//2번째 예제
 		int score = 88;
 		switch (score / 10) {

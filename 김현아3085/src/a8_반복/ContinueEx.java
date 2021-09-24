@@ -4,7 +4,7 @@ public class ContinueEx {
 
 	public static void main(String[] args) {
 		for(int i = 0; i < 10 ; i++) {
-			if(i%2 == 0) {
+			if(i % 2 == 0) {
 				System.out.println(i+"은(는) 짝수입니다.");
 				continue;
 				//컨티뉴는 if 저 조건식을 만족할때에 컨티뉴 이하에 있는 명령을 하지않고 
@@ -13,7 +13,5 @@ public class ContinueEx {
 			}
 			System.out.println(i+"은(는) 홀수입니다.");
 		}
-
 	}
-
 }
