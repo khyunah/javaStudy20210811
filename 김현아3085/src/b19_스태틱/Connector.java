@@ -1,4 +1,12 @@
 package b19_스태틱;
+
+public interface Connector {
+
+	public static void connect() {
+		System.out.println("연결되었습니다.");
+	}
+}
+
 /*
  * Static 
  * : 사전적으로 정적이다 라는 뜻.(정적 : 초기에 만들어져 있어서 움직이지 않는, 동적 : 추가 삭제가 가능하며 움직이는)
@@ -10,10 +18,3 @@ package b19_스태틱;
  *   싱글톤패턴 변수는 보통 instance로 쓴다
  *   
  */
-
-public interface Connector {
-	
-	public static void connect() {
-		System.out.println("연결되었습니다.");
-	}
-}
