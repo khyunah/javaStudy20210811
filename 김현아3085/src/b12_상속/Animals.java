@@ -1,7 +1,25 @@
 package b12_상속;
 
-import java.util.Iterator;
+class Human extends Animal{
+	@Override
+	public void move() {
+		System.out.println("사람이 두 발로 걷습니다.");
+	}
+}
 
+class Tiger extends Animal{
+	@Override
+	public void move() {
+		System.out.println("호랑이가 네발로 뜁니다.");
+	}
+}
+
+class Eagle extends Animal{
+	@Override
+	public void move() {
+		System.out.println("독수리는 날개를 펴고 납니다.");
+	}
+}
 public class Animals {
 	public static void main(String[] args) {
 		Human h = new Human();
@@ -28,26 +46,5 @@ public class Animals {
 			Animal ani=a[i];
 			ani.move();
 		}
-	}
-}
-
-class Human extends Animal{
-	@Override
-	public void move() {
-		System.out.println("사람이 두 발로 걷습니다.");
-	}
-}
-
-class Tiger extends Animal{
-	@Override
-	public void move() {
-		System.out.println("호랑이가 네발로 뜁니다.");
-	}
-}
-
-class Eagle extends Animal{
-	@Override
-	public void move() {
-		System.out.println("독수리는 날개를 펴고 납니다.");
 	}
 }

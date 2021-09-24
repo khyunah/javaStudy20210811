@@ -10,5 +10,4 @@ public class SwitchImpl2 implements Switch{
 	public void off() {
 		System.out.println("º¼·ýÀ» ³·Ãä´Ï´Ù.");		
 	}
-
 }

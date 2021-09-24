@@ -3,6 +3,7 @@ package b13_다형성;
 import b12_상속.Animal; 
 
 class Human extends Animal{	
+	
 	public void readBook() {
 		System.out.println("사람이 책을 읽습니다.");
 	}	
@@ -78,9 +79,7 @@ public class AnimalTest {
 		System.out.println("----------------------");
 		
 		//다운캐스팅
+		//상속받은상태에서는 자식클래스에 있는 메소드가 호출되지않는다. 호출하기 위해서는 다운캐스팅을 해줘야함
 		aniTest.casting();
-		
-
 	}
-
 }

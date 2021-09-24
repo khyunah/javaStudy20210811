@@ -1,14 +1,16 @@
 package b12_상속;
 
 public class Father {
+	//같이 쓸 객체
 	private String lastName;
 	private int money;
 	private String building;
 	
+	//기본생성자는 클래스내에 하나는 무조건 필요하고, 만약없으면 컴파일러가 자동으로 생성해줌
 	public Father() {
 		 System.out.println("아버지 생성");
 	}
-	
+	//생성자 Constructor
 	public Father(String lastName, int money, String building) {
 		super();
 		this.lastName = lastName;
@@ -16,6 +18,7 @@ public class Father {
 		this.building = building;
 	}
 	
+	//private으로 선언을 했기때문에 재정의 하기위해서는 get, set이 필요
 	public String getLastName() {
 		return lastName;
 	}
@@ -39,8 +42,5 @@ public class Father {
 	public String toString() {
 		return "Father [lastName=" + lastName + ", money=" + money + ", Building=" + building + "]";
 	}
-	/*
-	 * 오버라이드 : 재정의하는것
-	 * 오버라이드하게 되면 부모클래스의 변수가 자식 클래스의 것이 되는것처럼 자식꺼 실행
-	 */
+
 }
