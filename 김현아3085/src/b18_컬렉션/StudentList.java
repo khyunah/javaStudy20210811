@@ -22,6 +22,7 @@ public class StudentList {
 		//제거될 대상의 객체를 가지고 옴, 내가 어떤걸 지웠나 잘 지웠나 확인하는 작업
 		Student s = sList.remove(3);
 		System.out.println(s);
+		
 	}
 
 }
