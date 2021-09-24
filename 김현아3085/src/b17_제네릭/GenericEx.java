@@ -1,12 +1,5 @@
 package b17_제네릭;
 
-/*
- * Generic (제네릭)
- * 클래스 내부의 자료형을 원하는 형태로 지정할 수 있다.
- * 
- * 
- */
-
 public class GenericEx<T> {
 	T generic;
 	public T getGeneric(T t) {
@@ -19,12 +12,11 @@ public class GenericEx<T> {
 		GenericEx<String> gex = new GenericEx<String>();
 		String str = gex.getGeneric("김준일");
 		
-		//int타입으로
+		//Integer타입으로
 		GenericEx<Integer> gex2 = new GenericEx<Integer>();
 		Integer num1 = gex2.getGeneric(100);
 		
 		System.out.println(str);
 		System.out.println(num1);
 	}
-
 }
