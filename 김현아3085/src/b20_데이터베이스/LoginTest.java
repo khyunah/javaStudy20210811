@@ -15,6 +15,7 @@ public class LoginTest {
 			System.out.println("====로그인 시스템====");
 			
 			System.out.print("아이디 : ");
+			
 			String id = input.nextLine();
 			
 			System.out.print("비밀번호 : ");
