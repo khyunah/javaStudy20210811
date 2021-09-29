@@ -5,9 +5,7 @@ public class KIA {
 	private static KIA instance = new KIA();
 	private int serialNum = 20210001;
 	
-	private KIA() {
-		
-	}
+	private KIA() {}
 	
 	public static KIA getInstance() {
 		

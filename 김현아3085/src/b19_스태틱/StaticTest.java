@@ -3,11 +3,12 @@ package b19_스태틱;
 public class StaticTest {
 
 	public static void main(String[] args) {
+		
 		Connector.connect();
 		
-		//Integer.parseInt
 		//클래스를 사용할때 이런식으로 해야하는데 static은 바로 접근 가능
-		//Integer i = new Integer(10);
+		//Integer i = new Integer(10); (x)
+		//Integer.parseInt             (o)
 		
 		Student s1 = new Student("김준일");
 		Student s2 = new Student("정상우");
@@ -19,6 +20,5 @@ public class StaticTest {
 		s2.showInpo();
 		s3.showInpo();
 		s4.showInpo();
-
 	}
 }

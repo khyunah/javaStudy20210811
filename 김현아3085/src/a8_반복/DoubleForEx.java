@@ -13,7 +13,5 @@ public class DoubleForEx {
 				System.out.println("¹Ú¼ö " + j2 +"¹ø");
 			}
 		}
-
 	}
-
 }
