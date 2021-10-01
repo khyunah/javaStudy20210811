@@ -65,12 +65,6 @@ public class Student {
 		System.out.println("이름 : "+name);
 		System.out.println("학교 : "+ schoolName);
 		System.out.println("학년 : "+year);
-	}
-
-	
-	//	public Student(String n, int y) { 
-//		name = n;
-//		year = y;
-//	}
-//	
+	}	
 }
+

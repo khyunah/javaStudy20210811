@@ -1,6 +1,7 @@
 package b10_클래스;
 
 public class Car {
+	
 	private String company; //제조사
 	private String model; //모델명
 	private String color; //차량 색상
@@ -37,6 +38,4 @@ public class Car {
 		System.out.println("연식 : "+ year);
 		System.out.println("색상 : " + color);
 	}
-	
-
 }

@@ -7,7 +7,7 @@ public class OverloadingEx {
 		return result;
 	}
 	
-	public int add (String num1, int num2) { //같은이름을 선언할수는없지만 매개변수의 자료형이 다르면 가능함
+	public int add (String num1, int num2) { 
 		int result = Integer.parseInt(num1) +num2;
 		return result;		
 	}
@@ -15,6 +15,7 @@ public class OverloadingEx {
 		int result = num1 +num1;
 		return result;
 	}	
+	
 	public int mul(int num1, int num2, int num3) {
 		int result = num1*num2*num3;
 		return result;
@@ -24,17 +25,19 @@ public class OverloadingEx {
 		double result = num1*num2;
 		return result;
 	}
+	
 	public double mul(int num1, int num2) {
 		double result = num1*num2;
 		return result;
 	}
+	
 	public void mainMethod() {//퍼블릭은 공개적인의 의미로 모든이가 이것을 사용할수있다라는뜻 
 		int numberSum = add (10, 20);
 		double numberMul = mul(2,10.5);
 		System.out.println("두 수의 합은?"+numberSum);
-		System.out.println("곱셈 : + numberMul");
+		System.out.println("곱셈 : "+ numberMul);
 	}
-	
+}	
 	/*
 	 * 객체는 세상에 존재하는 모든것을 의미
 	 * 객체들의 관계성을 사용해서 순차적으로 수행되며 프로그램 동작
@@ -59,7 +62,5 @@ public class OverloadingEx {
 	 */
 
 
-
-}
 
 

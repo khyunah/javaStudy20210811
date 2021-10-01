@@ -1,6 +1,7 @@
 package b10_Å¬·¡½º;
 
 public class CarTest {
+	
 	public static void main(String[] args) {
 		
 		Car sonata = new Car(); 
@@ -25,8 +26,5 @@ public class CarTest {
 		sonata.carInfo();
 		k7.carInfo();
 		tesla_model3.carInfo();
-		
-		
 	}
-
 }
