@@ -3,6 +3,7 @@ package b22_윈도우빌더.service;
 import b22_윈도우빌더.dao.LoginDao;
 import b22_윈도우빌더.dao.LoginDaoImpl;
 
+
 public class LoginServiceImpl implements LoginService{
 	//1선언만 해주고 
 	private LoginDao loginDao;

@@ -7,4 +7,5 @@ public interface SignUpService {
 	public String isEmptyValue(String[] values);
 	public String equalsPassword(String pwd, String repwd);
 
+	
 }

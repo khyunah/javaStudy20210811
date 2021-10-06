@@ -10,7 +10,6 @@ public class SignUpDaoImpl implements SignUpDao{
 	
 	private DBConnectionMgr pool;
 	
-	
 	public SignUpDaoImpl() {
 		pool = DBConnectionMgr.getInstance();
 	}

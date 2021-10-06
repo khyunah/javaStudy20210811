@@ -63,6 +63,7 @@ public class SignUpServiceImpl implements SignUpService{
 		}
 		return msg;
 	}
+	
 
 	@Override
 	public String equalsPassword(String pwd, String repwd) {
