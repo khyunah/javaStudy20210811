@@ -77,4 +77,9 @@ public class SignUpServiceImpl implements SignUpService{
 		}
 		return msg;
 	}
+
+	@Override
+	public boolean signUp(String[] values) {
+		return signUpDao.signUp(values);
+	}
 }
